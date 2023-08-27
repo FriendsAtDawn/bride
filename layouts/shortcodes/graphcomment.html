@@ -13,27 +13,24 @@
     },
 
     // configure your variables here
-    "sidePanel": {
-      "width": 480,
-      "button": {
-        "background": "#f35b5b",
-        "color": "#ffffff",
-        "label": "Y bien"
-      },
-      "visible": true,
-      "bubble": true
-    }
+
   }
 
   /* - - - DON'T EDIT BELOW THIS LINE - - - */
 
   function __semio__onload() {
-    __semio__gc_sidePanel_graphlogin_amp(__semio__params)
+    __semio__gc_graphlogin_amp(__semio__params)
   }
 
 
   (function() {
     var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
+    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin_amp.js?' + Date.now();
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
+  })();
+  
+
+</script>); gc.type = 'text/javascript'; gc.async = true;
     gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_sidePanel_graphlogin_amp.js?' + Date.now();
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
   })();

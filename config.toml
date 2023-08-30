@@ -1,5 +1,5 @@
 title = "Notre-Dame de Paris"
-baseURL = "http://tesis.corte.si.eu.org"
+baseURL = "http://tesis.corte.si.eu.org/"
 languageCode = "en-us"
 theme = ["ananke", "hugo-embed-pdf-shortcode"]
 resourceDir = "../resources"
